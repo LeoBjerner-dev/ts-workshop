@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: darkcyan;
+}
+body h1 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 30px;
+}
+
+#recipeContainer {
+  display: block;
+  margin: 2rem auto;
+  width: fit-content;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1rem 2rem;
+  color: antiquewhite;
+  font-size: 2rem;
+}

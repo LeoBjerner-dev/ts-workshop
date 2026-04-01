@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "ts:watch": "tsc --watch",
+    "sass": "sass src:dist --no-source-map",
+    "sass:watch": "sass --watch src:dist --no-source-map"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,8 @@
   "type": "commonjs",
   "dependencies": {
     "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.98.0"
   }
 }

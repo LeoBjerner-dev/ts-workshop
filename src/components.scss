@@ -1,0 +1,26 @@
+.potionParentContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.potionContainer{
+    min-height: 10vh;
+    min-width: 5vw;
+    border: 2px solid black;
+    padding: 5px;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    &:hover{
+        scale: 1.05;
+        cursor: pointer;
+    }
+}
+
+.resultContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
